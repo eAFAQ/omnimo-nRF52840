@@ -1,0 +1,1 @@
+This directory will host the Omnimo nRF52840 Gerber files after the crowdfunding campaign ends. For more details, visit [Omnimo nRF52840 crowdfunding page](https://www.crowdsupply.com/eafaq/omnimo-nrf52840) on Crowd Supply.
