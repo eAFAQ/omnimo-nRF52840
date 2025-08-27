@@ -42,3 +42,6 @@ Welcome to the Omnimo nRF52840 repository, a compact development board powered b
 <p align="center">
 <img src="/Images/omnimo-nrf52840-pinout.jpg">
 </p>
+
+## CircuitPython
+Omnimo nRF52840 is officially supported by [CircuitPython](https://circuitpython.org/board/omnimo_nrf52840/).
