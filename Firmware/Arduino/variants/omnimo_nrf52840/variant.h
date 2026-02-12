@@ -122,10 +122,14 @@ static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
 
 // Feather I2C Interface ////
-#define WIRE_INTERFACES_COUNT 1
+#define WIRE_INTERFACES_COUNT 2
 
 #define PIN_WIRE_SDA         (22)
 #define PIN_WIRE_SCL         (23)
+
+#define PIN_WIRE1_SDA       (36)
+#define PIN_WIRE1_SCL       (35)
+
 // Redefine
 #define PIN_FEATHER_SDA      PIN_WIRE_SDA
 #define PIN_FEATHER_SCL      PIN_WIRE_SCL
@@ -179,8 +183,8 @@ static const uint8_t PMOD7  = PIN_PMOD7 ;
 static const uint8_t PMOD8  = PIN_PMOD8 ;
 
 // Qwiic Pins ///////////////
-#define PIN_QWIIC_SCL         (35)
-#define PIN_QWIIC_SDA         (36)
+#define PIN_QWIIC_SCL         PIN_WIRE1_SCL
+#define PIN_QWIIC_SDA         PIN_WIRE1_SDA
 
 static const uint8_t QWIIC_SCL = PIN_QWIIC_SCL ;
 static const uint8_t QWIIC_SDA = PIN_QWIIC_SDA ;
