@@ -29,8 +29,8 @@ Welcome to the Omnimo nRF52840 repository, a compact development board powered b
 - 2 MB of QSPI Flash for storing CircuitPython files
 ### Power
 - Battery connector to connect 3.7-4.2 V Lithium-polymer battery
-- On-board 3.3 V LDO regulator
-- An additional controllable LDO regulator for powering modules to turn off modules when not in use
+- On-board 3.3 V voltage regulator
+- Switchable output voltage (3.3 V) to turn off modules when not in use
 ### Buttons and Indicators
 - Side on/off switch
 - 2 user-programmable LEDs
